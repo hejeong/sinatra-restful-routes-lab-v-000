@@ -1,4 +1,5 @@
 <form action="/recipes" method="post">
+  <input type="hidden" name="_method" value="patch">
     <label for="name">Recipe Name: </label>
     <input type="text" name="name" value="@recipe.name">
     <br>
